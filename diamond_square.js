@@ -142,7 +142,7 @@ function duplicateArr (arr, times) {
 }
 
 function generation ({ version, seed, worldHeight = 80, minY, waterline = 32, size = 10000000, roughness = null, getRenamedData } = {}) {
-  const Chunk = require('prismarine-chunk')(version)
+  const Chunk = require('reinarpg-chunk')(version)
   // const registry = require('prismarine-registry')(version)
   const blocksCache = {}
   const originalRegistry = require('prismarine-registry')(version)
