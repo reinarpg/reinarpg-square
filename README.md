@@ -18,7 +18,7 @@ world.getBlock(new Vec3(3, 50, 3)).then(block => console.log(JSON.stringify(bloc
 
 ## Contributors
 
-* @JWo1F did the initial code for reinarpg-square in flying-squid
+* @JWo1F did the initial code for reinarpg-square in reinarpg-server
 * @demipixel
 * @rom1504
 
@@ -42,4 +42,4 @@ world.getBlock(new Vec3(3, 50, 3)).then(block => console.log(JSON.stringify(bloc
 
 ### 0.0.0
 
-* first version, imported from flying-squid, works
+* first version, imported from reinarpg-server, works
